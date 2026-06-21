@@ -43,7 +43,7 @@
                     div.className = 'user-card';
                     
                     // Bug 2: Los datos no se muestran correctamente. Revisa las propiedades del objeto 'user'.
-                    div.innerHTML = `<strong>${user.full_name}</strong> - ${user.email_address}`; 
+                    div.innerHTML = `<strong>${user.name}</strong> - ${user.email}`; 
                     
                     userList.appendChild(div);
                 });
